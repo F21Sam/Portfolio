@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';  // Importer les styles du pied de page
+import './Footer.css';  
 
 const Footer = () => {
   return (

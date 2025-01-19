@@ -1,28 +1,25 @@
 import React from 'react';
-import './App.css';
-import './index.css';
-/**import Header from './components/Header';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
+      <HeroSection />
+      <About />
       <Skills />
       <Projects />
-      <Footer />
-    </div>
-  );       
-}
-
-export default App;**/
-
-function App() {
-  return (
-    <div className="bg-beige h-screen flex items-center justify-center">
-      <h1 className="text-marron text-4xl font-bold">Mon Portfolio</h1>
+      <Contact />
+      <Footer/>
     </div>
   );
 }
+
+export default App;
+
