@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
-    { name: 'Page Web Responsive', url: 'https://f21sam.github.io/mastodon/' },
+    { name: 'Matodon', url: 'https://f21sam.github.io/mastodon/' },
     { name: 'Animal.org', url: 'https://github.com/F21Sam/PHP-entrainement/tree/main/PROJET_ANNUEL/Amimal' },
   ];
 
